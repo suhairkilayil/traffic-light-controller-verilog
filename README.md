@@ -50,18 +50,26 @@ Add your block diagram image to the `docs/` folder using the filename `block_dia
 ## 📂 Project Structure
 
 ```text
-traffic-light-controller/
+traffic-light-controller-verilog/
 │
 ├── README.md
+│
 ├── src/
 │   └── Traffic_Light_Controller.v
+│
 ├── testbench/
 │   └── Traffic_Light_Controller_tb.v
+│
 ├── docs/
 │   ├── block_diagram.png
+│   ├── state_diagram.png
+│   ├── stage_diagram.png
+│   ├── truth_table.png
 │   └── simulation_waveform.png
+│
 ├── bitstream/
 │   └── Traffic_Light_Controller.bit
+│
 └── constraints/
     └── traffic_light_controller.xdc
 ```
